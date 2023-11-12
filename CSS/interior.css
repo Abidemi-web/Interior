@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header {
+  background-image: url(../images/back7.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 17%;
+  
+
+  
+  
+}
+
+header .head {
+  display: flex;
+  gap: 25%;
+  margin-top: 20px;
+  
+}
+ 
+  
+header  nav ul  {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.home-hovers{
+  background-color: lime;
+  position: absolute;
+  
+  font-size: 15px;
+  width: 17%;
+  text-align: center;
+  color: white;
+  opacity: 0;
+  transition: 0.15s;
+  pointer-events: none;
+  
+}
+
+
+ header nav ul li,
+ a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+ }
+ 
+
+.head nav ul li:hover .home-hovers{
+  opacity: 1;
+  
+
+}
+
+
+header img {
+  width: 8%;
+  border-radius: 4px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+header h1 {
+  margin-top: 10%;
+  margin-left: 60px;
+  line-height: 55px;
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: rgb(5, 148, 5);
+  text-shadow: 2px 2px 2px white;
+}
+header h1 span {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(5, 148, 5);
+}
+
+header p {
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 5px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  display: inline-block;
+}
+
+header .btn {
+  margin-left: 80px;
+  margin-top: 60px;
+  width: 15%;
+  height: 38px;
+  background-color: rgba(6, 252, 6, 0.834);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 4px;
+  display: block;
+
+
+}
+header button:hover {
+  transform: scale(0.9);
+}
+
+.menu,
+.close,
+.navbar {
+  display: none;
+  position: relative;
+}
+
+.div {
+  text-align: center;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+section .bod {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  margin-top: 30px;
+
+  
+}
+.bod .imag img {
+  width: 100%;
+}
+.bod .imag img:hover {
+  transform: rotate(20deg);
+}
+
+.about h3 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 30px;
+}
+.line {
+  display: flex;
+  margin-left: 45%;
+  gap: 8px;
+
+}
+hr {
+  width: 50px;
+  height: 0;
+  margin-top: 5px;
+  border-color: lime;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: lime;
+}
+
+.aboutus {
+  display: inline-block;
+  margin-top: 50px;
+}
+ .inner {
+  line-height: 30px;
+  margin-left: 10px;
+}
+.inner p {
+  margin-top: 20px;
+}
+.inner button {
+  margin-top: 40px;
+  width: 100px;
+  height: 30px;
+  background-color: rgb(3, 160, 3);
+  border: none;
+  color: white;
+  border-radius: 4px;
+}
+.aboutus img {
+  width: 30%;
+  margin-left: 66%;
+  margin-top: 60px;
+  box-shadow: -5px 1px 5px 0px rgba(0,0,0,0.75);
+}
+.aboutus .imag {
+  margin-left: 25%;
+  top: -240px;
+  position: relative;
+  width: 100%;
+
+}
+.aboutus .imag1 {
+  position: absolute;
+  top: 230%;
+  
+}
+
+.project{
+  margin-top: -100px;
+}
+.project h3 {
+  text-align: center;
+  
+  font-size: 30px;
+}
+.projectline {
+  display: flex;
+  margin-left: 45%;
+  gap: 8px;
+
+}
+hr {
+  width: 50px;
+  height: 0;
+  margin-top: 5px;
+  border-color: lime;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: lime;
+}
+
+div .imagproject{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+}
+.imagproject .imag2 {
+  box-shadow: -5px 1px 5px 0px rgba(0,0,0,0.75);
+  background-color: white;
+  
+}
+
+.imag2 img {
+  width: 100%;
+
+}
+
+.imag2 p {
+  font-size: 20px;
+}
+
+.cret {
+  margin-top: 50px;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  background-color: rgb(3, 160, 3);
+  border: none;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 3px;
+  border-radius: 3px;
+  margin-left: 45%;
+}
+button:hover {
+  transform: scale(0.9);
+}
+
+.Furniture{
+  margin-top: 100px;
+}
+.Furniture h3 {
+  text-align: center;
+  
+  font-size: 30px;
+}
+.Furnitureline {
+  display: flex;
+  margin-left: 45%;
+  gap: 8px;
+
+}
+hr {
+  width: 70px;
+  height: 0;
+  margin-top: 5px;
+  border-color: lime;
+  margin-left: -11px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: lime;
+  margin-left: -10px;
+}
+
+.moref {
+  margin-top: 50px;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  background-color: rgb(3, 160, 3);
+  border: none;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  border-radius: 3px;
+  margin-left: 45%;
+}
+
+.preview{
+  margin-top: 100px;
+ 
+}
+.preview h3 {
+  text-align: center;
+  
+  font-size: 30px;
+}
+.previewline {
+  display: flex;
+  margin-left: 36%;
+  gap: 8px;
+
+}
+.preview hr {
+  width: 189px;
+  height: 0;
+  margin-top: 5px;
+  border-color: lime;
+  margin-left: -11px;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: lime;
+  margin-left: -10px;
+}
+
+.inputE input {
+  display: block;
+  margin: 30px;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+  border-bottom-color: lime;
+}
+
+input:focus{
+  outline: none;
+}
+
+::placeholder {
+  font-size: 15px;
+}
+
+.send {
+  width: 7%;
+  height: 30px;
+  margin-left: 65%;
+  border-color: lime;
+  background-color: white;
+  color: lime;
+}
+
+footer {
+  background-color: black;
+  margin-top: 90px;
+}
+footer h2 {
+  text-align: center;
+  color: white;
+}
+footer h4 {
+  color: white;
+  margin-left: 180px;
+  letter-spacing: 5px;
+}
+footer .fott{
+  color: white;
+  text-align: center;
+  letter-spacing: 6px;
+  font-size: 20px;
+  
+  
+}
+footer .number {
+  text-align: end;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+.iconn ion-icon {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.iconn ion-icon:hover{
+  transform: scale(0.9);
+  color: rgb(4, 108, 4);
+  
+}
+
+
+ @media (max-width: 780px) {
+/* Just for the responsive navbar */
+  .navbar a {
+    text-decoration: none;
+  } 
+
+  header nav ul {
+    display: none;
+  }
+  
+  .menu {
+    display: inline-block;
+    margin-left: 150px;
+    width: 40px;
+    height: 30px;
+    margin-top: 40px;
+    background-color: rgb(3, 107, 3);
+    color: white;
+    border: none;
+    border-radius: 1px;
+
+ }
+.head  .navbar{
+  position: absolute;
+  width: 100px;
+}
+.close {
+  margin-left: 2px;
+  margin-bottom: 20px;
+  display: block;
+  width: 40px;
+  height: 30px;
+  background-color: rgb(3, 107, 3);
+  color: white;
+  border: none;
+  
+}
+
+.head .navbar {
+  display: block;
+  padding: 1.5rem;
+  margin: 1rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+  display: none;
+  margin-left: 60px;
+  margin-top: 6px;
+  
+}
+.head .navbar a {
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+}
+.head .navbar a:hover {
+  background-color: lime;
+  color: white;
+}
+.menu:hover {
+  transform: scale(0.8);
+}
+
+.close:hover {
+  transform: scale(0.8);
+}
+
+
+div.navbar.Active2 {
+  display: block;
+  
+}
+
+header img {
+  width: 17%;
+  border-radius: 5px;
+  margin-left: 17px;
+}
+header h1 {
+  font-size: 40px;
+  margin-left: 10px;
+}
+header p {
+  margin-left: 10px;
+  font-size: 17px;
+}
+header .btn {
+  width: 40%;
+  height: 50px;
+  font-size: 13px;
+  margin-left: 30px;
+}
+
+
+} 
+

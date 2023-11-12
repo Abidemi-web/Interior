@@ -1,0 +1,34 @@
+header {
+  background-image: url(../IMAGES/back6.jpg);
+}
+
+section {
+  margin-top: 10%;
+}
+
+.section1 {
+  margin-top: 15%;
+}
+
+div .imagproject2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+
+
+.imag3 img {
+  box-shadow: -5px 1px 5px 0px rgba(0,0,0,0.75);
+  width: 100%;
+
+}
+
+.imag3 p {
+  font-size: 20px;
+}
+
+ 
